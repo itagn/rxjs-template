@@ -1,0 +1,16 @@
+$height: 3rem;
+
+html, body {
+  margin: 0;
+}
+#app {
+  margin: $height;
+  width: $height;
+  height: $height;
+  text-align: center;
+  line-height: $height;
+  color: #fff;
+  background: #334455;
+  cursor: pointer;
+  user-select: none;
+}
